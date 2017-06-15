@@ -1,14 +1,19 @@
 import React from 'react'
 import Nav from '../containers/nav'
 import Title from '../components/title'
+import Footer from '../containers/footer'
+import Header from '../containers/header'
+
 const Home = props => {
   return (
-    <div className="pa2">
+    <div className="bg-light-blue">
+      <Header />
       <Nav />
       <Title>Home</Title>
       <div>
         <p>Hey yall, whats up</p>
       </div>
+      <Footer />
     </div>
   )
 }
