@@ -10,4 +10,4 @@ function Title(props){
 export default Title
 */
 
-export default props => <h1 className="avenir f6">{props.children}</h1>
+export default props => <h1 className="avenir f1 fw1">{props.children}</h1>

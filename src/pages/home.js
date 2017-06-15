@@ -1,10 +1,11 @@
 import React from 'react'
 import Nav from '../containers/nav'
+import Title from '../components/title'
 const Home = props => {
   return (
-    <div>
+    <div className="pa2">
       <Nav />
-      <h1>Home</h1>
+      <Title>Home</Title>
       <div>
         <p>Hey yall, whats up</p>
       </div>
