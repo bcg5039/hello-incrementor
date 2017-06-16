@@ -5,6 +5,7 @@ import Home from './pages/home'
 import About from './pages/about'
 import Incrementor from './pages/incrementor'
 import Medications from './pages/medications'
+
 class App extends Component {
   render() {
     return (
