@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 class Incr extends React.Component {
   constructor(props) {
@@ -56,5 +57,11 @@ class Incr extends React.Component {
       </div>
     )
   }
+}
+
+Incr.propTypes = {
+  initialValue: PropTypes.number.isRequired,
+  incrementor: PropTypes.number.isRequired,
+  decrementor: PropTypes.number.isRequired
 }
 export default Incr
